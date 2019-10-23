@@ -1,0 +1,45 @@
+<view class="wrap">
+    <view class="search">
+        <input placeholder="搜索你喜欢的商品" bindblur="pay"></input>
+    </view>
+    <view>
+      <swiper autoplay="true" circular indicator-dots>
+        <swiper-item>
+          <image src="/images/tabIcon/shouye1.jpg" mode="widthFix"></image>
+        </swiper-item>
+        <swiper-item>
+          <image src="/images/tabIcon/shouye2.png" mode="widthFix"></image>
+        </swiper-item>
+        <swiper-item>
+          <image src="/images/tabIcon/shouye3.png" mode="widthFix"></image>
+        </swiper-item>
+      </swiper>
+    </view>
+    <!-- 商品导航 -->
+    <view class="nav">
+        <view class="food">
+          <image mode="widthFix" src="/images/food/yinpin.png"></image>
+          <text>饮品</text>
+        </view>
+        <view class="food">
+          <image mode="widthFix" src="/images/food/dangao.png"></image>
+          <text>蛋糕</text>
+        </view>
+        <view class="food">
+          <image mode="widthFix" src="/images/food/pisa.png"></image>
+          <text>披萨</text>
+        </view>
+        <view class="food">
+          <image mode="widthFix" src="/images/food/kuaican.png"></image>
+          <text>快餐</text>
+        </view>
+        <view class="food">
+          <image mode="widthFix" src="/images/food/shuiguo.png"></image>
+          <text>水果</text>
+        </view>
+        <view class="food">
+          <image mode="widthFix" src="/images/food/tangguo.png"></image>
+          <text>糖果</text>
+        </view>
+    </view>
+</view>

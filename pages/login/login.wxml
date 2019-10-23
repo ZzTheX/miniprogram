@@ -1,0 +1,7 @@
+<!--pages/login/login.wxml-->
+<view class='container'>
+<text>欢迎来到阿宁的商城</text>
+<input placeholder='请输入账号' bindblur='getPhone'></input>
+<input placeholder="请输入密码" bindblur='getVerifycode'></input>
+<button bind:tap='login'>登录</button>
+</view>

@@ -1,0 +1,43 @@
+/* pages/index/index.wxss */
+.wrap {
+  padding-left: 10rpx;
+  padding-right: 10rpx;
+}
+view.container {
+  width: 750rpx;
+  height: 100vh;
+  background-color: #336699;
+}
+swiper {
+  height: 350rpx;
+  width: 100%;
+}
+swiper swiper-item {
+  height: 350rpx;
+  width: 100%;
+}
+swiper swiper-item image {
+  height: 350rpx;
+  width: 100%;
+}
+/* 商品导航 */
+.nav {
+  width: 100%;
+  padding: 20rpx;
+  box-sizing: border-box;
+  border: 2rpx solid pink;
+  background-color: #eee;
+  border-radius: 16rpx;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav .food {
+  width: 26%;
+}
+.nav .food image{
+  width: 100%;
+}
+

@@ -1,0 +1,17 @@
+.container {
+  width: 750rpx;
+  height: 100vh;  
+}
+text {
+  display: flex;
+  justify-content: center;
+}
+input {
+  border: 2rpx solid lightblue; 
+  padding: 20rpx 60rpx 20rpx 60rpx;
+  margin: 20rpx 0rpx;
+}
+button {
+  background-color: lightblue;
+  color: white;
+}

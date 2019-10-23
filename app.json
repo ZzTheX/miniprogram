@@ -1,0 +1,38 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/shopping/shopping",
+    "pages/login/login"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#336699",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "阿宁购物",
+    "backgroundColor": "#336699",
+    "backgroundTextStyle": "light",
+    "enablePullDownRefresh": false
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/tabIcon/shouye.png",
+        "selectedIconPath": "images/tabIcon/shouye.png"
+      },
+      {
+        "pagePath": "pages/shopping/shopping",
+        "text": "购物",
+        "iconPath": "images/tabIcon/gouwu.png",
+        "selectedIconPath": "images/tabIcon/gouwu.png"
+      },
+      {
+        "pagePath": "pages/login/login",
+        "text": "我的",
+        "iconPath": "images/tabIcon/ziyuan.png",
+        "selectedIconPath": "images/tabIcon/ziyuan.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

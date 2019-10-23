@@ -1,0 +1,6 @@
+/* pages/login/login.wxss */
+view.container {
+  width: 750rpx;
+  padding: 20rpx;
+  box-sizing: border-box;
+}
